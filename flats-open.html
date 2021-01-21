@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+	<meta charset="utf-8">
+
+	<title>Evroinvest | Недвижимость</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header header--flat-open">
+			<div class="container">
+				<div class="header_inner">
+					<a href="index.html" class="header_logo logo">
+						EUROPE INVEST
+					</a>
+					<div class="header_menu">
+						<nav class="header_nav" id="header_nav">
+							<ul class="header_list">
+								<li>
+									<a href="index.html" class="header_nav_link">О нас</a>
+								</li>
+								<li>
+									<a href="contacts.html" class="header_nav_link">Контакты</a>
+								</li>
+								<li>
+									<a href="flats.html" class="header_nav_link header_nav_link--active">Недвижимость</a>
+								</li>
+								<li>
+									<a href="consulting.html" class="header_nav_link">Консалтинговые услуги</a>
+								</li>
+								<li>
+									<a href="law-help.html" class="header_nav_link">Юридическая помощь</a>
+								</li>
+								<li class="header_mob_actions">
+									<a href="#" class="header_city">г.Москва</a>
+									<a href="tel:+74956840434" class="header_number">+7 (495) 684-04-34</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header_burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="flat-open">
+			<div class="container">
+				<h2 class="flat-open_title section_title">Объекты на продажу</h2>
+				<div class="flat-open_inner">
+					<div class="flat-open_btn-hidden-mob">
+						<button id="btnSide" class="flat-open_btn-filter">Фильтр</button>
+						<button class="flat-open_btn-sort">Сортировать по</button>
+					</div>
+					<aside class="flat-open_aside flat-open_aside-hidden-mob">
+						<form action="#" class="flat-open_aside_form">
+							<div class="form_item">
+								<label for="formService" class="form_label">Страна</label>
+								<div class="form_dropdown dropdown">
+									<button class="dropdown_button">Страна</button>
+									<ul class="dropdown_list">
+										<li class="dropdown_list-item" data-value="1">Испания</li>
+						                <li class="dropdown_list-item" data-value="2">Италия</li>
+						                <li class="dropdown_list-item" data-value="3">Франция</li>
+						                <li class="dropdown_list-item" data-value="4">Другое</li>
+									</ul>
+									<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+								</div>
+							</div>
+							<div class="form_item">
+								<label for="formService" class="form_label">Тип недвижимости</label>
+								<div class="form_dropdown dropdown">
+									<button class="dropdown_button">Квартира</button>
+									<ul class="dropdown_list">
+										<li class="dropdown_list-item" data-value="1">Дом</li>
+						                <li class="dropdown_list-item" data-value="2">Квартира</li>
+						                <li class="dropdown_list-item" data-value="3">Вилла</li>
+						                <li class="dropdown_list-item" data-value="4">Другое</li>
+									</ul>
+									<input type="text" name="select-category" value="" class="dropdown__input-hidden">
+								</div>
+							</div>
+							<div class="form_item">
+								<label for="formName" class="form_label">Цена</label>
+								<div class="form_item_inner">
+									<input type="text" class="form_input js-input-from" placeholder="1 000 000" value="0" />
+								    <input type="text" class="form_input js-input-to" placeholder="10 000 000" value="0" />
+								</div>
+								<div class="range-slider">
+								    <input type="text" class="js-range-slider" value="" />
+								</div>
+							</div>
+							<div class="form_item">
+								<label for="formName" class="form_label">Площадь</label>
+								<div class="form_item_inner">
+									<input id="formName" type="text" name="name" class="form_input" placeholder="От">
+									<input id="formName" type="text" name="name" class="form_input" placeholder="До">
+								</div>
+							</div>
+							<div class="form_item form_item--btn">
+								<a href="#" class="flat-open_card_content_find-btn">Найдено 2 объекта</a>
+							</div>
+							<button class="flat-open_card_content_btn-more">Еще фильтры</button>
+						</form>
+					</aside><!---------flat-open_aside----------->
+					<div class="flat-open_content">
+						<div class="flat-open_card">
+							<a class="flat-open_card_image" href="flats-open1.html">
+								<img src="img/flat/01.jpg">
+							</a>
+							<div class="flat-open_card_content">
+								<div class="flat-open_card_header">
+									<a href="flats-open1.html">
+										<h4 class="flat-open_card_content_title">Вилла в Мурсии 250м<sup>2</sup></h4>
+									</a>
+									<div class="flat-open_card_price">Цена: 15 000$</div>
+								</div>
+
+								<div class="flat-open_card_content_text">
+									Эта современная вилла находится в нескольких минутах ходьбы от многих баров, ресторанов и спа-отелей...
+								</div>
+								<p>
+									<a href="#" class="flat-open_card_content_more">Читать дальше</a>
+								</p>
+								<div class="flat-open_card_price-mob">Цена: 15 000$</div>
+								<div class="flat-open_card_footer">
+									<a href="flats-open1.html" class="flat-open_card_content_btn">Смотреть</a>
+									<div class="flat-open_card_name">Агент: Александр Петров</div>
+								</div>
+							</div>
+						</div><!--flat-open_card---->
+						<div class="flat-open_card">
+							<a class="flat-open_card_image" href="flats-open1.html">
+								<img src="img/flat/02.jpg">
+							</a>
+							<div class="flat-open_card_content">
+								<div class="flat-open_card_header">
+									<a href="flats-open1.html">
+										<h4 class="flat-open_card_content_title">Дом в Сан-Никола Арчелла 120м<sup>2</sup></h4>
+									</a>
+									<div class="flat-open_card_price">Цена: 15 000$</div>
+								</div>
+
+								<div class="flat-open_card_content_text">
+									Эта современная вилла находится в нескольких минутах ходьбы от многих баров, р...
+								</div>
+								<p>
+									<a href="#" class="flat-open_card_content_more">Читать дальше</a>
+								</p>
+								<div class="flat-open_card_price-mob">Цена: 15 000$</div>
+								<div class="flat-open_card_footer">
+									<a href="#" class="flat-open_card_content_btn">Смотреть</a>
+									<div class="flat-open_card_name">Агент: Александр Петров</div>
+								</div>
+							</div>
+						</div><!--flat-open_card---->
+					</div><!---------flat-open_content----------->
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer_inner">
+					<a href="index.html" class="footer_logo logo">EUROPE INVEST</a>
+					
+					<div class="footer_nav_wrapper">
+						
+					<ul class="footer_nav">
+						<li><a href="#" class="footer_nav_link">О нас</a></li>
+						<li><a href="#" class="footer_nav_link">Контакты</a></li>
+						<li><a href="#" class="footer_nav_link">Объекты</a></li>
+						<li><a href="#" class="footer_nav_link">Консалтинговые услуги</a></li>
+						<li><a href="#" class="footer_nav_link">Юридическая помощь</a></li>
+						<li><a href="#" class="footer_nav_link">Открытие счетов</a></li>
+					</ul>
+					<div class="footer_bottom">
+						<a href="#" class="footer_policy footer_nav_link">
+						Политика конфиденциальности
+						</a>
+					</div>
+					</div>
+
+					<div class="footer_social social">
+							<a href="#" class="social_item">
+								<img src="img/social/insta.svg">
+							</a>
+							<a href="#" class="social_item">
+								<img src="img/social/facebook.svg">
+							</a>
+							<a href="#" class="social_item">
+								<img src="img/social/vk.svg">
+							</a>
+							<a href="#" class="social_item">
+								<img src="img/social/twitter.svg">
+							</a>
+						</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
